@@ -2,4 +2,164 @@ body {
     margin: 0;
     min-height: 100vh;
     background: url(../img/tumblr_e69a44e2a222273abbd0f72f7ee84e47_f2c54caf_540.webp) center / cover no-repeat fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.secao h1 {
+    background-color: rgb(103, 6, 6);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 10px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.secao h1:hover {
+    background-color: rgb(20, 90, 35);
+    transform: scale(1.05);
+}
+
+.menu-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: fit-content;
+    max-width: 90%;
+    margin: 16px auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.78);
+    border-radius: 12px;
+}
+
+.menu-links a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(103, 6, 6);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu-links a:hover {
+    background-color: rgb(20, 90, 35);
+    transform: translateY(-2px);
+}
+
+
+
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+h2 {
+    color: rgb(230, 190, 80);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+ul {
+    line-height: 2;
+}
+
+li {
+    transition: 0.3s;
+}
+
+li:hover {
+    color: rgb(230, 190, 80);
+    transform: translateX(10px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: rgb(103, 6, 6);
+}
+
+td,
+th {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: rgba(20, 90, 35, 0.7);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: rgb(103, 6, 6);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(20, 90, 35);
+    box-shadow: 0 0 10px white;
+}
+
+@media (max-width: 600px) {}
+
+.secao h1 {
+    width: 90%;
+}
+
+.rodape p {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+
+.rodape a {
+    display: inline-block;
+    color: rgb(230, 190, 80);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
 }
